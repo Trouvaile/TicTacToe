@@ -1,0 +1,79 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 10px;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://img.freepik.com/free-vector/3d-perspective-style-diamond-shape-white-background_1017-27556.jpg?size=626&ext=jpg&ga=GA1.2.1479298816.1618704000);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ol{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+ul {
+  padding-left: 30px;
+}
+
+li{
+  padding-top: 2px;
+}
+
+button{
+  font-size: 1.8rem;
+}
+
+#error{
+  background: #c00;
+  color: #fff;
+  display: none;
+  margin: -20px -20px 20px;
+  padding: 20px;
+  white-space: pre-wrap;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 2px solid rgb(2, 2, 2);
+  float: left;
+  font-size: 7rem;
+  font-weight: bold;
+  line-height: 54px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 9rem;
+  height: 10rem;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 3rem;
+  font-size: 1.7rem;
+}
